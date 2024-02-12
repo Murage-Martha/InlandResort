@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&family=Karla:wght@300&family=Montserrat:wght@500&display=swap');
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    /*
+    font-family: 'Cormorant', serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    */
+}
+
+h1{
+    line-height: 20%;
+    font-weight: 500;
+    font-family: 'Cormorant', serif;
+    font-size: 700%;
+    color: #24252A;
+    letter-spacing: 180%;
+}
+
+h2 {
+    font-size: 1.25em;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    line-height: 120%;
+    justify-content: center;
+    font-weight: 300;
+    font-family: 'Cormorant', serif;
+    font-size: 400%;
+    line-height: 1em;
+    color: #24252A;
+    letter-spacing: 10%;
+}
+p {
+    line-height: 1.5em;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 130%;
+    color: #465b52;
+    margin: 0.9375em 0 1.25em 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.whitetext {
+    color: azure;
+}
+section {
+    height: 70vh;
+    width: 100%;
+}
+
+li, a, button {
+    
+    font-weight: 600;
+    font-size: 90%;
+    color: #24252A;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 50%;
+    letter-spacing: 105%;
+}
+
+button:active,
+button:hover {
+    color:azure;
+    background: #C70808;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7.5em;
+    padding: 0.625em 5.625em;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875em 10%;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* responsive navbar*/
+
+.header {
+    width: 100%;
+    height: 52.5em;
+    background-size: 100% 90vh;
+    background-position: center;
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    padding: 0 80vh;
+    align-self: center;
+}
+
+
+.logo {
+    max-height: 6.875em;
+    max-width: 15.625em;
+    position: fixed;
+    top: 0.625%;
+    padding-bottom: 0.625em;
+    left: 5%;
+    background-color: transparent;
+}
+
+#navbar {
+    list-style: none;
+    padding: 0 1.25em 0 1.875em;
+    align-self: center;
+    background-color: transparent;
+    opacity: 110%;
+    
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 1.25em 1.25em 1.25em 1.25em;
+    
+    
+}
+
+#navbar li a {
+    transition: all 0.3s ease 0s;
+    color: azure;
+}
+
+
+
+#navbar li a:hover{
+    color: #C70808;
+    text-decoration: none;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: transparent;
+    color: azure;
+    border: 0.2px solid azure;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+    .headerCta {
+        position: fixed;
+        padding: 1.25em 1.25em 1.25em 1.25em;
+    }
+
+/*Header section - text*/
+.headerText {
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    margin-top: 80%;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    display: inline-block;
+}
+
+
+
+
+
+/*Feature section*/
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 18.75em;
+}
+
+.card {
+    flex: 1;
+    max-width: 40%;
+    max-height: 40em;
+    object-fit: fill;
+    text-align: center;
+    padding: 0.3125em;
+    margin: 10% 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    margin: 0.625em 0.625em 0.625em 0.625em;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0.625em 0.625em 5.25em rgba(0, 0, 0, 0.03); 
+
+}
+
+.card img:hover {
+    box-shadow: 0.625em 0.625em 7.125em rgba(70, 62, 221, 0.1);
+}
+
+.imgcard {
+    max-width: 40%;
+}
+.card h3 {
+    margin-top: 1em;
+}
+.card p {
+    margin-top: 5em;
+}
+
+
+
+/*CTA*/
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("background/banner/b2.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+color: #fff;
+font-size: 20px;
+}
+
+#banner p {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+/*Footer sectio*/
