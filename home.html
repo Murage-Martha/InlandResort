@@ -9,9 +9,9 @@
 </head>
 <body>
 <!-- Hero header section-->
-    <section class="header">
+    <section class="header" style="background-image: url(background2.jpg);">
         <header> <!-- navigation-->
-            <div><img class="logo" src="inlineLogoDark.png"></div>
+            <div><img id="headerLogo" src="stampLogo.png"></div>
             <nav>
                 <ul id="navbar">
                     <li><a class="active" href="home.html">HOME</a></li>
@@ -35,7 +35,7 @@
             </div>
             <div class="card">
                 <h3>The best place to relax your mind</h3>
-                <p>Escape the hustle and bustle of everyday life and immerse yourself in the serene oasis that is SereneStay. Nestled in the heart of Kenya, our inland resort offers a tranquil retreat for those who have been working tirelessly and are yearning for a well-deserved break. Surrounded by lush greenery and the sounds of nature, SereneStay is a sanctuary designed to provide the ultimate relaxation experience.</p>
+                <p>Escape the hustle and bustle of everyday life and immerse yourself in the serene oasis that is SereneStay. Our inland resort offers a tranquil retreat for those who are yearning for a well-deserved break. </p>
             </div>
         </div>
             
@@ -52,9 +52,7 @@
     </section>
     <!-- CTA section-->
     <section id="banner" class="section-m1">
-        <h1>Ready for an awesome getaway? </h1>
-        <p>Book your spot now for a super cool time in nature.</p>
-        <a id="cta headerCta" href="#"><button>BOOK NOW</button></a>
+
     </section>
     <!-- FAQ section
     <section>
@@ -65,8 +63,30 @@
 
     </section> -->
     <!-- Footer section-->
-<footer id="footer">
-
+<footer>
+    <div class="row" >
+        <div class="col newsletter">
+            <img id="footerLogo"  src="inlineLogoDark.png" alt="">
+            <div> <!-- Insert social media logos here--> </div>
+            <p>Sign up for our Newsletter to get notified on discounts and offers!</p>
+            <div id="newsletter" class="form">
+                <input type="text" id="emailInput" placeholder="Your email address">
+                <button  class="button" onclick="intakeEmail()">SIGN UP</button>
+        
+            </div>
+        </div>
+        <div class="col navcol">
+            <a href="aboutUs.html">ABOUT US</a>   
+            <p>A</p>
+            <p>B</p>
+            <p>C</p>
+            <p>D</p>
+            <p>E</p>
+            <p>F</p>
+        </div>
+        
+        
+    </div>
 </footer>
 
 </body>
