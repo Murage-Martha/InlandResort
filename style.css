@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&family=Karla:wght@300&family=Montserrat:wght@500&display=swap');
 /*Responsiveness*/
-@media only screen and (max-width: 850px) {
+@media (max-width: 850px) {
     h2 {
-        font-size: 2vw; 
+        font-size: 2vw;
         letter-spacing: 0.6em;
     }
 
     h1 {
-        font-size: 11vw; 
-        letter-spacing: 0.02em;;
+        font-size: 11vw;
+        letter-spacing: 0.02em;
+        ;
     }
 
     h3 {
         font-size: 5.3vw;
         letter-spacing: 0.1vw;
     }
+
     p {
         letter-spacing: 0.08vw;
     }
@@ -27,31 +29,36 @@
     .card img {
         margin-top: 1em;
     }
-    .card p, h3 {
+
+    .card p,
+    h3 {
         padding-left: 0.01em;
     }
 
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+
 /*fonts*/
-h1{
+h1 {
     line-height: 20%;
-    font-weight: 550;
+    font-weight: 590;
     font-family: 'Cormorant', serif;
-    font-size: 8vw;
+    font-size: calc(1rem + 8vw);
     color: #24252A;
     letter-spacing: 0.05em;
 }
 
 h2 {
-    font-size: 1.6vw;
+    font-size: calc(0.5rem + 0.5vw);
     color: #222;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
@@ -64,16 +71,17 @@ h3 {
     justify-content: center;
     font-weight: 350;
     font-family: 'Cormorant', serif;
-    font-size: 4.2vw;
+    font-size: calc(2.3rem + 2vw);
     line-height: 1em;
     color: #24252A;
     letter-spacing: 10%;
 }
+
 p {
     line-height: 1.7em;
     justify-content: center;
     font-weight: 300;
-    font-size: 1.4vw;
+    font-size: calc(1rem + 0.5vw);;
     color: #465b52;
     font-family: 'Karla', sans-serif;
     letter-spacing: 0.05vw;
@@ -84,8 +92,10 @@ p {
 }
 
 /*links and buttons*/
-li, a, button {
-    
+li,
+a,
+button {
+
     font-weight: 600;
     font-size: 90%;
     color: #24252A;
@@ -104,7 +114,7 @@ a:active {
 
 button:active,
 button:hover {
-    color:azure;
+    color: azure;
     background: #C70808;
 }
 
@@ -117,7 +127,7 @@ button {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     position: relative;
-    
+
 }
 
 /*sections*/
@@ -135,7 +145,8 @@ header {
     left: 0;
     width: 100%;
     height: 6em;
-    padding: 1.875em 5%;;
+    padding: 1.875em 5%;
+    ;
     box-sizing: 1.875em 5%;
     justify-content: space-between;
     align-items: center;
@@ -147,7 +158,7 @@ header {
 }
 
 #headerLogo {
-    max-height: 5em; 
+    max-height: 5em;
     max-width: 20em;
     position: fixed;
     top: 0.625%;
@@ -162,13 +173,13 @@ header {
     align-self: center;
     background-color: transparent;
     opacity: 110%;
-    
+
 }
 
 #navbar li {
     display: inline-block;
     padding: 1.2em 1.2em 1.2em 1.2em;
-    
+
 }
 
 #navbar li a {
@@ -177,7 +188,7 @@ header {
     position: relative;
 }
 
-#navbar li a:hover{
+#navbar li a:hover {
     color: #C70808;
     text-decoration: none;
 }
@@ -186,7 +197,7 @@ header {
 footer {
     min-height: 20em;
     width: 100%;
-    background: linear-gradient( to right, #1d2e28, #2d0b00);
+    background: linear-gradient(to right, #1d2e28, #2d0b00);
     color: azure;
     padding: 2em 2vw 1em;
     border-top-left-radius: 30px;
@@ -194,7 +205,7 @@ footer {
     line-height: 20px;
     background-position: center;
     background-repeat: no-repeat;
-    align-self:baseline;
+    align-self: baseline;
     background-size: cover;
     background-position: bottom;
     align-items: center;
@@ -211,16 +222,16 @@ footer {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    
+
 }
+
 .col {
     flex-basis: 20%;
     padding: 0.01em 1em;
     align-items: center;
-    margin-left: 2em;
-    margin-right: 2em;
     position: center;
     margin-bottom: 2em;
+    
 }
 
 #footerLogo {
@@ -267,7 +278,7 @@ footer {
 footer p {
     font-size: 100%;
     color: azure;
-    padding-top: 0.1em ;
+    padding-top: 0.1em;
     padding-bottom: 1em;
     letter-spacing: 0.1em;
 }
@@ -286,7 +297,7 @@ footer a {
     padding-bottom: 2vh;
 }
 
-footer a:hover{
+footer a:hover {
     color: #C70808;
     text-decoration: none;
 }
@@ -294,13 +305,12 @@ footer a:hover{
 .navcol {
     align-self: center;
     padding: 0 3vw;
-    
+
 }
 
 
 .form {
     display: flex;
-    width: 45%;
     flex-direction: column;
     justify-content: center;
 }
@@ -323,14 +333,14 @@ footer a:hover{
     align-self: center;
     padding: 1em 2.4em;
     margin-top: 2vh;
-    
+
 }
 
 #copywrite {
- position: center;
- height: 2em;
- margin-bottom: 0;
- padding: 0;
+    position: center;
+    height: 2em;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 
@@ -342,8 +352,8 @@ footer a:hover{
     background-position: center;
     background-repeat: no-repeat;
     align-self: center;
-    background-size: cover;    
-    background-position: top; 
+    background-size: cover;
+    background-position: top;
     height: 95vh;
 }
 
@@ -353,27 +363,27 @@ footer a:hover{
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin: 4vh 9vw 7vh 9vw; 
-    position: absolute; 
-    top: 50%; 
-    transform: translateY(-50%); 
+    margin: 4vh 9vw 7vh 9vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .headerText {
     text-align: center;
     white-space: nowrap;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
 }
 
 .flex-container h2 {
-    padding: 7vw; 
+    padding: 7vw;
     padding-bottom: 20vh;
 
 }
 
-.flex-container h1 { 
+.flex-container h1 {
     padding: 1vw;
     align-self: center;
 }
@@ -386,18 +396,29 @@ footer a:hover{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    flex: 18.75em;
 }
+
+@media (max-width: 850px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 
 .card {
     flex: 1;
-    max-width: 40%;
     max-height: 40em;
     object-fit: fill;
     text-align: center;
     margin: 10% 5%;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
 }
 
 .card img {
@@ -405,7 +426,7 @@ footer a:hover{
     margin: 0.625vh 0.625vh 0.625vh 0.625vh;
     background-image: cover;
     border-radius: 10px;
-    box-shadow: 0.625em 0.625em 5.25em rgba(0, 0, 0, 0.03); 
+    box-shadow: 0.625em 0.625em 5.25em rgba(0, 0, 0, 0.03);
     position: fixed center;
 
 }
@@ -418,6 +439,7 @@ footer a:hover{
 .card h3 {
     margin-top: 0.3em;
 }
+
 .card p {
     padding-top: 1.9em;
     margin: 0.2em 0 1.25em 0;
@@ -440,8 +462,8 @@ footer a:hover{
 }
 
 #banner h4 {
-color: #fff;
-font-size: 20px;
+    color: #fff;
+    font-size: 20px;
 }
 
 #banner p {
@@ -449,4 +471,3 @@ font-size: 20px;
     font-size: 30px;
     padding: 10px 0;
 }
-
