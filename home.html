@@ -9,7 +9,7 @@
 </head>
 <body>
 <!-- Hero header section-->
-    <section class="header" style="background-image: url(background2.jpg);">
+    <section class="heroHeader" style="background-image: url(background2.jpg);">
         <header> <!-- navigation-->
             <div><img id="headerLogo" src="stampLogo.png"></div>
             <nav>
@@ -20,7 +20,7 @@
                     <li><a href="contactUs.html">CONTACT US</a></li>
                 </ul>
             </nav>
-            <a id="cta headerCta" href="#"><button>BOOK NOW</button></a> 
+            <a href="#"><button>BOOK NOW</button></a> 
         </header>
         <div class="flex-container">
             <h2 class="whitetext headerText " >Your Ultimate Getaway</h2>
@@ -51,43 +51,45 @@
 
     </section>
     <!-- CTA section-->
-    <section id="banner" class="section-m1">
-
+    <section>
     </section>
-    <!-- FAQ section
-    <section>
-
-    </section> -->
-    <!-- Newsletter section
-    <section>
-
-    </section> -->
+    
     <!-- Footer section-->
-<footer>
-    <div class="row" >
-        <div class="col newsletter">
-            <img id="footerLogo"  src="inlineLogoDark.png" alt="">
-            <div> <!-- Insert social media logos here--> </div>
-            <p>Sign up for our Newsletter to get notified on discounts and offers!</p>
-            <div id="newsletter" class="form">
-                <input type="text" id="emailInput" placeholder="Your email address">
-                <button  class="button" onclick="intakeEmail()">SIGN UP</button>
-        
+    <footer>
+
+        <div class="row" >
+
+            <div class="col newsletter">
+                <img id="footerLogo"  src="inlineLogoDark.png" alt="">
+
+                <div id="icons"> 
+
+                    <div id="twitterBg"><img src="twitter.png" alt=""></div>
+                    <img src="instagram.png" alt="">
+                    <img src="pinterest.png" alt="">
+                    <img src="facebook.png" alt="">
+                    <img src="tiktok.png" alt="">    
+                </div>
+            </div>
+
+            <div class="col navcol">
+                <p>Sign up for our Newsletter to get notified on discounts and offers!</p>
+
+                <div id="newsletter" class="form">
+                    <input type="text" id="emailInput" placeholder="Your email address">
+                    <button  class="button" onclick="intakeEmail()">SIGN UP</button>
+                </div>
+                
+            </div> 
+        </div>
+
+        <div id="copywrite">
+            <div >
+                <p>&copy; All rights reserved 2024</p>
             </div>
         </div>
-        <div class="col navcol">
-            <a href="aboutUs.html">ABOUT US</a>   
-            <p>A</p>
-            <p>B</p>
-            <p>C</p>
-            <p>D</p>
-            <p>E</p>
-            <p>F</p>
-        </div>
-        
-        
-    </div>
-</footer>
+
+    </footer>
 
 </body>
 </html>
